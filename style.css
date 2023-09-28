@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(31, 30, 32);
+    color: rgb(201, 201, 201);
+}
+
+.navbar {
+    background-color: rgb(56, 55, 58);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar-element {
+    float: left;
+}
+
+.navbar-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.navbar-element:hover {
+    background-color: rgb(103, 101, 107);
+}
+
+.card-holder {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-in-table {
+    float: left;
+    width: 18%;
+    padding: 1%;
+    height: 200%;
+}
