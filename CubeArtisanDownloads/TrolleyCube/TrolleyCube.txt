@@ -203,11 +203,11 @@ Goblin Engineer
 Half-Orc, Half-Iguana
 Harmonic Prodigy
 Mana Beetle
-_____ Goblin
 Birgi, God of Storytelling
 Bonecrusher Giant
 Junkyard Scrapper
 Simian Spirit Guide
+Underscore Goblin
 Volatile Chimera
 Caves of Chaos Adventurer
 Howlpack Avenger
@@ -326,7 +326,7 @@ Jarsyl, Dark Age Scion
 Fauves, Visiting Painter
 Minsc and Boo, Timeless Heroes
 Knight of the Reliquary
-Kharis and The Beholder
+Kharis and the Beholder
 Contemporary Recall
 Damn
 Lurrus of the Dream-Den
