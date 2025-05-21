@@ -20,9 +20,9 @@ def CardnameToImage(name:str) -> str:
     return ''.join(filter(WHITELIST_CHARS.__contains__, name)) + ".png"
 
 
-sourceFolder = "C:/Users/cirio/Documents/Python/TrolleyCubePrintImages/Results/CustomSelf"
+sourceFolder = "C:/Users/cirio/Documents/Python/TrolleyCubePrintImages/Results/CustomGenerated"
 
-for file in os.listdir(sourceFolder)[57:]:
+for file in os.listdir(sourceFolder):
 
     filename = sourceFolder + "/" + file
 
