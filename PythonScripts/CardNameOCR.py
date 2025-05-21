@@ -20,11 +20,11 @@ def CardnameToImage(name:str) -> str:
     return ''.join(filter(WHITELIST_CHARS.__contains__, name)) + ".png"
 
 
-sourceFolder = "C:/Users/cirio/Documents/Python/TrolleyCubePrintImages/Results/BonusSheet"
+sourceFolder = "C:/Users/cirio/Documents/Python/TrolleyCubePrintImages/Results/CustomSelf"
 
 for file in os.listdir(sourceFolder):
 
-    if not file in ["Darkpact.png", "mb2-999-JEO-jund-em-out.png", "Throne of Knowledge.png", "The Pleasant Taxer.png", "Eladamri.png", "Fragment Reality (1dHnfjwiayJlbGxF3hOFhihJr4wvTIxsV).jpg", "Hells Caretaker.png", "Saiba Syphoner (1nf6am4-IeutB-4ijfw8VUFEcpbT_5NqL).jpg", "UlgrothaCharm.png"]:
+    if not file in ["Merlins-Hat.png"]:
         continue
 
     filename = sourceFolder + "/" + file
@@ -37,4 +37,4 @@ for file in os.listdir(sourceFolder):
 
     img = img.crop((padding[0], padding[1], padding[0] + cardSize[0], padding[1] + cardSize[1]))
 
-    img.save(f"../ImageFiles/TrolleyBonus/{CardnameToImage(result[0])}")
+    img.save(f"../ImageFiles/TrolleyBonus/Merlins Hat{CardnameToImage(result[0])}")
