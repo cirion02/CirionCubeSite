@@ -25,4 +25,4 @@ def CreateCubeCustomImageGallery(cubename:str):
     
 if __name__ == "__main__":
     CreateIndexPage()
-    CreateCubeCustomImageGallery("TrolleyCube")
+    CreateCubeCustomImageGallery("TrolleyNew")
